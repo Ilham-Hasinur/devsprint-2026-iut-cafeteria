@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2b$10$xf.CRts.7GLBXMOr511jYujwN3nis2mnMqLR2mevHWhlnQyJOl.ea",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "hossainaljaber",
+      "password": "$2b$10$TELVOkmoo6SGQkFzeUVgHe4o78NBhcdWHcWcn4QqjmH2C7oU0EVui",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "username": "sabrinamaimon",
+      "password": "$2b$10$64nd1dIyS9.L735OXC7YReX2sCN6Z0JRWXXMMDYUU/S1PwUxQ5IIC",
+      "role": "student"
+    },
+    {
+      "id": 4,
+      "username": "john_doe",
+      "password": "$2b$10$P/Ks5CQcvdy4LPpBH3yQnOpnUxMOYsWOtVsHqWOCSkOPxOQ.ViJ.q",
+      "role": "student"
+    },
+    {
+      "id": 5,
+      "username": "ilhamhasinur",
+      "password": "$2b$10$wXReVYxvefnl5al.YIJqluAPCuOqhGWRYWjtvOuBNSz5W1GZCTOvG",
+      "role": "student"
+    },
+    {
+      "id": 6,
+      "username": "jane_doe",
+      "password": "$2b$10$To9iEa3XlYc9BAnyXFpzye/c2lvVVzBeXqHWbpPw2bE40ezRF5eu2",
+      "role": "student"
+    },
+    {
+      "id": 1772393326994,
+      "username": "mashrafimamun",
+      "password": "$2b$10$Zf5P4oNr2oXDmDfhAOrdpe8yRay3q/rSOkTYhzd1u3m914hxloX8S",
+      "role": "student"
+    },
+    {
+      "id": 1772396816793,
+      "username": "diskbattles",
+      "password": "$2b$10$k8DUwiOe4.rUWeP45JP0nen9CZFEcfF5U.VmapaF.M7OgYeIpQVaC",
+      "role": "student"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1772389265682,
+      "userId": 5,
+      "status": "Ready",
+      "createdAt": 1772389265682
+    },
+    {
+      "id": 1772391745947,
+      "userId": 5,
+      "status": "Ready",
+      "createdAt": 1772391745947
+    },
+    {
+      "id": 1772391746715,
+      "userId": 5,
+      "status": "Ready",
+      "createdAt": 1772391746715
+    },
+    {
+      "id": 1772391750423,
+      "userId": 5,
+      "status": "Ready",
+      "createdAt": 1772391750423
+    },
+    {
+      "id": 1772396951909,
+      "userId": 2,
+      "status": "Ready",
+      "createdAt": 1772396951909
+    }
+  ],
+  "metrics": {
+    "totalOrders": 5,
+    "failures": 19,
+    "totalLatency": 45042
+  },
+  "stock": {
+    "setA": 122
+  },
+  "services": {
+    "identity": true,
+    "gateway": false,
+    "stock": false,
+    "kitchen": false,
+    "notification": true
+  }
+}
