@@ -4,7 +4,7 @@ import './style.css'
 // CONFIG
 // =============================
 
-const API_BASE = "http://localhost:5000"
+const API_URL = "https://your-render-url.onrender.com"
 
 // =============================
 // DOM REFERENCES
