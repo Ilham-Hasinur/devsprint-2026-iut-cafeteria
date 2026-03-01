@@ -11,8 +11,12 @@ import { registerStockRoutes } from "./services/stock.js"
 // =============================
 
 const app = express()
-const PORT = 5000
-const SECRET = "super-secret-key"
+
+// Use Render's assigned port in production
+const PORT = process.env.PORT || 5000
+
+// Use environment variable for secret (secure for deployment)
+const SECRET = process.env.JWT_SECRET || "super-secret-key"
 
 // =============================
 // MIDDLEWARE
