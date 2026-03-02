@@ -4,7 +4,7 @@ import './style.css'
 // CONFIG
 // =============================
 
-const API_URL = "https://your-render-url.onrender.com"
+const API_BASE = "https://devsprint-2026-iut-cafeteria-028c.onrender.com"
 
 // =============================
 // DOM REFERENCES
