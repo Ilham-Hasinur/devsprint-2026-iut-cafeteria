@@ -5,12 +5,24 @@ import bcrypt from "bcryptjs"
 import { Low } from "lowdb"
 import { JSONFile } from "lowdb/node"
 import { registerStockRoutes } from "./services/stock.js"
+import express from "express"
+import cors from "cors"
 
 // =============================
 // CONFIG
 // =============================
 
 const app = express()
+
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}))
+
+app.use(express.json())
+
+
 
 // Use Render's assigned port in production
 const PORT = process.env.PORT || 5000
