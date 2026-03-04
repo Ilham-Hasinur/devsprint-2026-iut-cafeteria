@@ -26,20 +26,49 @@
   </button>
 
   <!-- ================= LANDING ================= -->
-  <section id="landingView"
-    class="fixed inset-0 flex items-center justify-center
-          bg-white
-          dark:bg-[#0f172a]
-          transition-opacity duration-700">
 
-    <button id="enterApp"
-      class="font-extrabold tracking-widest
-            text-4xl sm:text-5xl md:text-6xl lg:text-7xl
-            transition-transform duration-300
-            hover:scale-110">
-      IUT Cafeteria
-    </button>
-  </section>
+<section id="landingView"
+  class="fixed inset-0 flex items-center justify-center
+         px-4 transition-all duration-700
+         bg-cover bg-center bg-no-repeat
+         dark:bg-[#0f172a]"
+  style="background-image: url('/IUT.jpg');">
+
+  <button
+    id="enterApp"
+    class="title-font text-outline
+
+           text-[3rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem]
+           font-extrabold
+
+           shadow-[0_0_40px_rgba(255,255,255,1)]
+
+           px-10 py-8
+           sm:px-14 sm:py-10
+           md:px-20 md:py-12
+           lg:px-24 lg:py-16
+
+           bg-transparent
+           border-none
+           outline-none
+
+           transition duration-300
+
+           hover:opacity-90
+           hover:drop-shadow-[0_0_30px_rgba(0,0,0,0.9)]
+           hover:bg-white/15
+
+           rounded-[20px]
+
+           text-white
+           text-center
+           whitespace-nowrap">
+
+    IUT Cafeteria
+
+  </button>
+
+</section>
 
   <!-- ================= MAIN APP ================= -->
   <section id="appView"

@@ -28,7 +28,7 @@ app.use(express.json())
 const PORT = process.env.PORT || 5000
 
 // Use environment variable for secret (secure for deployment)
-const SECRET = process.env.JWT_SECRET || "super-secret-keyhihihi"
+const SECRET = process.env.JWT_SECRET || "super-secret-key"
 
 // =============================
 // MIDDLEWARE
